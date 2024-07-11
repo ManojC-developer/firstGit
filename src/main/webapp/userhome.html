@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>userhomepage</title>
+<link rel="stylesheet" type="text/css" href="adminstyle.css">
+</head>
+<body>
+
+<div class="container">
+
+        <h2>Available Insurances</h2>
+        <form action="paymentcalculationservlet" method="post">
+            <label for="insuranceSelect">Select Insurance:</label>
+            
+            
+            
+            <select id="insuranceSelect" name="insuranceId">
+                <option value="1">Health Plus - Basic medical expenses coverage - Rs 2000/month</option>
+                <option value="2">LifeGuard - Life insurance coverage with critical illness benefits - Rs 3000/month</option>
+                <option value="3">SecureCare - Comprehensive health insurance for individuals and families - Rs 4000/month</option>
+                <option value="4">Accident Shield - Accident insurance covering medical expenses and disability benefits - Rs 1500/month</option>
+                <option value="5">SeniorCare - Specialized health insurance tailored for senior citizens - Rs 5000/month</option>
+                <option value="6">DentalGuard - Dental insurance covering routine check-ups, cleanings, and major dental procedures - Rs 2500/month</option>
+                
+            </select><br>
+            <input type="submit" value="Proceed to Payment">
+        </form>
+    </div>
+</body>
+</html>
